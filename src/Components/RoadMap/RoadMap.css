@@ -1,0 +1,119 @@
+/* ROAD MAP HEADER******************************************************* */
+.roadmap_header{
+    width: 17%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+.roadmap_title{
+    transform: skewX(-15deg);
+    background-color: #FF012D;
+    width: 55%;
+    height: 5vw;
+    display: flex;
+}
+.roadmap_title > p {
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+    align-self: center;
+    margin: 0 auto;
+    font-size: 2.5vw;
+}
+/* ROADMAP CONTAINER****************************************************** */
+.roadmap_container{
+    width: 85%;
+    height: 23vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+/* ROAD MAP ITEM1****************************************************************** */
+.roadmap_item3{
+    width: 33%;
+    height: 14vw;
+    background-color: #242424;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.roadmap_item3_p{
+    width: 92%;
+    height: 13vw;
+}
+.roadmap_item3_p > p {
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+.roadmap_item3_oval_div{
+    padding-right: 1.2vw;
+    display: flex;
+    justify-content: center;
+    height: 8vw;
+}
+.roadmap_item3_p_span{
+    background-color: red;
+    width: 15%;
+    height: 4vw;
+    border-radius: 100%;
+    border: 0.3vw solid #FFFFFF;
+    display: flex;
+    align-self: center;
+}
+.roadmap_item3_span{
+    align-self: center;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+/* ROAD MAP ITEM2****************************************************************** */
+.roadmap_item1{
+    width: 31%;
+    height: 8vw;
+    background-color: #242424;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.roadmap_item1_p {
+    width: 95%;
+    height: 7vw;
+}
+.roadmap_item1_p > p{
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+.roadmap_item1_oval_div{
+    display: flex;
+    justify-content: center;
+    padding-right: 1.2vw;
+    height: 8vw;
+}
+.roadmap_item1_p_span{
+    background-color: red;
+    width: 15%;
+    height: 4vw;
+    border-radius: 100%;
+    border: 0.3vw solid #FFFFFF;
+    display: flex;
+    align-self: center;
+}
+.roadmap_item1_span{
+    align-self: center;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+}
+
+
+
+

@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    padding: 1.5% 2% ;
+    font-family: 'Orbitron', sans-serif;
+}
+.header_left{
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+.header_right{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    /* color: #fff; */
+}
+.header_right > li > a > span{
+    text-decoration: underline 0.2vw solid #FF012D;
+}
+.header_right > li {
+    padding: 0 1.5vw;
+}
+.header_right > li > a{
+    font-size: 1.3vw;
+}
+.onur{
+    color: #FFFFFF;
+}
+.header_right_start_li{
+    display: flex;
+    transform: skewX(-15deg);
+    background-color: #FF012D;
+    font-family: 'Orbitron', sans-serif;
+    height: 3.5vw;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header_right_start{
+    border:none;
+    align-self: center;
+}
+.background_header_slider{
+    height: auto;
+    background-image: url(/src/assets/Carbackgroundnft.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    width: 100%; 
+}
+

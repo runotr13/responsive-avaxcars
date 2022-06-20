@@ -1,0 +1,35 @@
+.Footer_Main_Container{
+    width: 100%;
+    background: linear-gradient(180deg, #000000 0%, #141414 50%);
+}
+.Container{
+    display: flex;
+    height: 10vw;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.Footer_social > img {
+    padding: 0.5vw;
+    width: 3vw;
+}
+.twit,.disc,.tele{
+    border-bottom: 2px solid #FF012D;
+}
+.Footer_info > p {
+    font-size: 1.2vw;
+}
+.footerlogo {
+    width: 90%;
+}
+
+
+
+
+
+.Footer_info{
+    font-family: 'Orbitron';
+    font-size: 15px;
+    color: #727272;
+}

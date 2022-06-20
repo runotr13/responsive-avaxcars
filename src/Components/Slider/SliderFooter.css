@@ -1,0 +1,21 @@
+.slider_footer{
+    display: flex;
+    flex-direction: column;
+}
+.VIRTUAL-REALITY-EXPERIENCE{
+   text-align: center;
+   height: 8vw;
+   font-family: 'Orbitron', sans-serif;
+   color: #FFFFFF;
+   font-size: 1vw;
+   letter-spacing: 1vw;
+   font-style: normal;
+}
+.Slider_alt_background{
+    width: 100%;
+    height: 3vw;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+    

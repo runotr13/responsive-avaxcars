@@ -1,0 +1,126 @@
+.Team_Main_Container{
+    background: #000000;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Team_header{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1.7%;
+    padding-bottom: 1.7%;
+}
+.Team_title{
+    transform: skewX(-15deg);
+    background-color: #FF012D;
+    width: 9vw;
+    height: 8vw;
+    display: flex;
+}
+.Team_title > p {
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+    align-self: center;
+    margin: 0 auto;
+    font-size: 3.1vw;
+    text-transform: uppercase;
+    padding-left: 25%;
+    font-weight: 900;
+}
+
+/* *********************************************************** */
+.Team_user_Main_Container{
+    width: 100%;
+}
+.Team_user_Container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 20vw;
+}
+.middle{
+    display: flex;
+}
+.middle_user_container1{
+    width: 37%;
+    height: 19vw;
+    background-color:  #424242;
+    align-self: center;
+}
+.middle_user_container2{
+    width: 37%;
+    height: 20vw;
+    background: #FFFFFF;
+}
+.middle_user_container3{
+    width: 37%;
+    height: 19vw;
+    background-color:  #424242;
+    align-self: center;
+}
+.middle_user{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 19vw;
+}
+.Rectangle_user {
+    width:7.5vw;
+    height: auto;
+}
+
+.middle_user_info{
+    flex-direction: column;
+    font-family: 'Orbitron';
+    color: #FFFFFF;
+    line-height: 0.8vw;
+    padding: 0 0.9vw;
+    
+}
+.middle_user_info > p {
+    font-size: 1.2vw;
+    
+}
+.middle_user_info2 > p {
+    font-size: 1.2vw;
+}
+.middle_user_info2{
+    flex-direction: column;
+    font-family: 'Orbitron';
+    line-height: 0.8vw;
+    padding: 0 0.9vw;
+}
+.artDırector{
+    color: #FF012D;
+}
+.socaial_paths{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+.socaial_paths > img {
+    width:15%;
+    height: 1.2vw;
+}
+.wrapper_spans{
+    height: 8vw;
+    border-right: 1px solid #fff;
+    padding: 0 0.4vw;
+}
+.left,.right{
+    align-self: center;
+}
+.left > img,.right > img{
+    width: 5vw;
+}
+
+@media screen and (max-width: 768px){
+    .middle_user_info > p ,.middle_user_info2 > p{
+       font-size: 1vw;
+    }
+    
+}

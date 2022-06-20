@@ -1,0 +1,129 @@
+.background_about_div{
+    width: 100%;
+    height: auto;
+    background-image: url(/src/assets/Mid\ Background.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-color: rgba(0, 0, 0, 1);
+}
+.AboutUsMainContainer{
+    width: 100%;
+    height: 34vw;
+    margin: 0 auto;
+    display: flex;
+    color: #FFFFFF;
+}
+.AboutUs-Container{
+    margin: 0 auto;
+    width: 100%;
+    height: 83%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.aboutus-item1{
+    display: flex;
+    width: 7%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutus-item1 > div  {
+    transform: rotateZ(270deg);
+    font-family: 'Orbitron', sans-serif;
+    width: 9vw;
+    font-size: 1vw;
+    text-align: center;
+}
+.aboutus{
+    height: 2.8vw;
+    width: 5%;
+    background-color: #FF012D;
+}
+.Görsel_item2{
+    height: auto;
+    width: 37vw;
+}
+.aboutus-item3{
+    display: flex;
+    width: 7%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutus-item3-child-top {
+    transform: rotateZ(270deg);
+    font-family: 'Orbitron', sans-serif;
+    width: 28vw;
+    font-size: 1.7vw;
+    position: relative;
+}
+.aboutus-item3-child-bottom{
+    position: absolute;
+    opacity: 0.25;
+    transform: rotateZ(270deg);
+    font-size: 1.9vw;
+    letter-spacing: 0.1vw;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    left: 40vw;
+}
+.aboutus-item4{
+    font-family: 'Orbitron';
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    width: 40%;
+    font-style: normal;
+    letter-spacing: 0.888889px;
+    
+}
+.aboutus-item4 > span {
+    border: 2px solid #FFFFFF;
+    width: 9%;
+    display: flex;
+    
+}
+.Group18_img_div {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+/* @media screen and (max-width: 1000px) {
+    
+    .aboutus-item1 {
+        width: 9%;
+        justify-content: space-between;
+    }
+    .aboutus-item1 > div{
+        font-size: 0.6em;
+        width: 14vw;
+        transform: rotateZ(360deg);
+        text-align: center;
+        font-size: 0.5em;
+    }
+    .aboutus {
+        height: 4.3vh;
+    }
+    .Görsel_item2 {
+        height: 20vh;
+    }
+    .aboutus-item3 {   
+        width: 5%;
+    }
+    .aboutus-item4 {
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    .aboutus-item3-child-top {
+        font-size: 0.8em;
+        width: 45vw;
+    }
+    .aboutus-item3-child-bottom {
+        font-size: 0.8em;
+        left: 32vw;
+    }
+    .aboutus-item4 {
+        font-size: 0.8em;
+    }
+} */
